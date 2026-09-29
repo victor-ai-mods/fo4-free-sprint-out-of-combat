@@ -1,0 +1,55 @@
+{
+    "modName": "FreeSprintOutOfCombat",
+    "displayName": "$FSOC_MOD_NAME",
+    "minMcmVersion": 2,
+    "pluginRequirements": [
+        "FreeSprintOutOfCombat.esp"
+    ],
+    "content": [
+        {
+            "type": "text",
+            "text": "$FSOC_ABOUT"
+        },
+        {
+            "type": "spacer"
+        },
+        {
+            "type": "section",
+            "text": "$FSOC_SEC_MAIN"
+        },
+        {
+            "type": "switcher",
+            "text": "$FSOC_IN_COMBAT",
+            "help": "$FSOC_IN_COMBAT_HELP",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "FreeSprintOutOfCombat.esp|801"
+            }
+        },
+        {
+            "type": "spacer"
+        },
+        {
+            "type": "section",
+            "text": "$FSOC_SEC_POWER_ARMOR"
+        },
+        {
+            "type": "switcher",
+            "text": "$FSOC_PA_AP",
+            "help": "$FSOC_PA_AP_HELP",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "FreeSprintOutOfCombat.esp|803"
+            }
+        },
+        {
+            "type": "switcher",
+            "text": "$FSOC_PA_CORE",
+            "help": "$FSOC_PA_CORE_HELP",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "FreeSprintOutOfCombat.esp|804"
+            }
+        }
+    ]
+}
