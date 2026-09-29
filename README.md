@@ -13,6 +13,8 @@ MCM settings (all off by default):
 Without MCM the settings are globals: `set FSOC_InCombat to 1`, `set FSOC_PowerArmorAP to 1`,
 `set FSOC_PowerArmorCore to 1`.
 
+Download: [Nexus Mods](https://www.nexusmods.com/fallout4/mods/109543).
+
 Русское описание, устройство и сборка - [README.ru.md](README.ru.md).
 
 ## How it works

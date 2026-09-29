@@ -13,6 +13,8 @@
 Без MCM это глобальные переменные: `set FSOC_InCombat to 1`, `set FSOC_PowerArmorAP to 1`,
 `set FSOC_PowerArmorCore to 1`.
 
+Скачать: [Nexus Mods](https://www.nexusmods.com/fallout4/mods/109543).
+
 ## Как работает
 
 Всё ниже снято дизассемблированием `Fallout4.exe` 1.10.163 с его PDB (`Fallout4.pdb`).
