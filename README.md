@@ -48,7 +48,10 @@ Details and all formulas are in the docstring of `tools/gen_esp.py`.
 - None beyond the base game. The plugin's only master is `Fallout4.esm`; no F4SE, no DLC.
 - Optional: Mod Configuration Menu (needs F4SE) for the settings.
 
-Tested on game version 1.10.163 (pre-Next-Gen).
+Tested in game on version 1.10.163 (pre-Next-Gen). The same files work on the Anniversary Edition (1.11.x):
+compared with AE 1.11.191, `Fallout4.esm` data the mod relies on (sprint perks, PA movement type, game settings),
+the engine-registered actor value IDs, the perk entry point table and `Actor::UpdateSprinting` are identical.
+On AE use the AE build of MCM.
 
 ## Building
 
